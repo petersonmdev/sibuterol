@@ -1,0 +1,39 @@
+// Grid settings
+$enable-flex:           true;
+$main-sm-columns:       12;
+$sidebar-sm-columns:    4;
+
+
+// cores do site
+$color-primary: #0094ca; //azul marinho
+$color-primary-hover: #005c7e;
+
+$color-secondary: #0094ca; 
+$color-secondary-hover: #005c7e;
+
+// Títulos
+$color-small-title: #777; //cinza
+
+// Cores dos textos
+$color-text-default: #3e3e3e; //cinza escuro
+$color-text-sucess: #3c763d; //verde
+$color-text-sucess-hover: #2b542c;
+$color-text-info: #31708f; //azul
+$color-text-info-hover: #245269;
+$color-text-warning: #8a6d3b; //laranja
+$color-text-warning-hover: #66512c;
+$color-text-danger: #a94442; //vermelho
+$color-text-danger-hover: #843534;
+
+// Cores de fundo
+$bg-text-primary: #fff; //branco
+$bg-primary: #0094ca; //azul marinho
+$bg-primary-hover: #006f97; 
+$bg-sucess: #dff0d8; //verde claro
+$bg-sucess-hover: #c1e2b3;
+$bg-info: #d9edf7; //azul claro
+$bg-info-hover: #afd9ee;
+$bg-warning: #fcf8e3; //amarelo claro
+$bg-warning-hover: #f7ecb5;
+$bg-danger: #f2dede; //vermelho claro
+$bg-danger-hover: #e4b9b9;

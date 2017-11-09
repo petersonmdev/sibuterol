@@ -1,0 +1,519 @@
+// Search form
+.search-form {
+  @extend .form-inline;
+}
+.search-form label {
+  font-weight: normal;
+  @extend .form-group;
+}
+.search-form .search-field {
+  @extend .form-control;
+}
+.search-form .search-submit {
+  @extend .btn;
+  @extend .btn-secondary;
+}
+
+//formulários padrão
+.comment-form p,
+.form-group {
+    margin-bottom: 15px
+}
+.checkbox,
+.radio {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.checkbox label,
+.radio label {
+    min-height: 20px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    cursor: pointer
+}
+.checkbox input[type=checkbox],
+.checkbox-inline input[type=checkbox],
+.radio input[type=radio],
+.radio-inline input[type=radio] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px\9
+}
+.checkbox+.checkbox,
+.radio+.radio {
+    margin-top: -5px
+}
+.checkbox-inline,
+.radio-inline {
+    position: relative;
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 0;
+    vertical-align: middle;
+    font-weight: 400;
+    cursor: pointer
+}
+.checkbox-inline+.checkbox-inline,
+.radio-inline+.radio-inline {
+    margin-top: 0;
+    margin-left: 10px
+}
+fieldset[disabled] input[type=checkbox],
+fieldset[disabled] input[type=radio],
+input[type=checkbox].disabled,
+input[type=checkbox][disabled],
+input[type=radio].disabled,
+input[type=radio][disabled] {
+    cursor: not-allowed
+}
+.checkbox-inline.disabled,
+.radio-inline.disabled,
+fieldset[disabled] .checkbox-inline,
+fieldset[disabled] .radio-inline {
+    cursor: not-allowed
+}
+.checkbox.disabled label,
+.radio.disabled label,
+fieldset[disabled] .checkbox label,
+fieldset[disabled] .radio label {
+    cursor: not-allowed
+}
+.form-control-static {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 0;
+    min-height: 34px
+}
+.comment-form .input-group-lg>.input-group-btn>input.form-control-static[type=submit],
+.comment-form .input-group-lg>input.form-control-static[type=text],
+.comment-form .input-group-lg>input.form-control-static[type=email],
+.comment-form .input-group-lg>input.form-control-static[type=url],
+.comment-form .input-group-lg>textarea.form-control-static,
+.comment-form .input-group-sm>.input-group-btn>input.form-control-static[type=submit],
+.comment-form .input-group-sm>input.form-control-static[type=text],
+.comment-form .input-group-sm>input.form-control-static[type=email],
+.comment-form .input-group-sm>input.form-control-static[type=url],
+.comment-form .input-group-sm>textarea.form-control-static,
+.form-control-static.input-lg,
+.form-control-static.input-sm,
+.input-group-lg>.form-control-static.form-control,
+.input-group-lg>.form-control-static.input-group-addon,
+.input-group-lg>.input-group-btn>.form-control-static.btn,
+.input-group-sm>.form-control-static.form-control,
+.input-group-sm>.form-control-static.input-group-addon,
+.input-group-sm>.input-group-btn>.form-control-static.btn {
+    padding-left: 0;
+    padding-right: 0
+}
+.comment-form .input-group-sm>.input-group-btn>input[type=submit],
+.comment-form .input-group-sm>input[type=text],
+.comment-form .input-group-sm>input[type=email],
+.comment-form .input-group-sm>input[type=url],
+.comment-form .input-group-sm>textarea,
+.input-group-sm>.form-control,
+.input-group-sm>.input-group-addon,
+.input-group-sm>.input-group-btn>.btn,
+.input-sm {
+    height: 36px;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+.input-group-sm>.input-group-btn>select.btn,
+.input-group-sm>select.form-control,
+.input-group-sm>select.input-group-addon,
+select.input-sm {
+    height: 36px;
+    line-height: 36px
+}
+.comment-form .input-group-sm>textarea,
+.input-group-sm>.input-group-btn>select[multiple].btn,
+.input-group-sm>.input-group-btn>textarea.btn,
+.input-group-sm>select[multiple].form-control,
+.input-group-sm>select[multiple].input-group-addon,
+.input-group-sm>textarea.form-control,
+.input-group-sm>textarea.input-group-addon,
+select[multiple].input-sm,
+textarea.input-sm {
+    height: auto
+}
+.comment-form .form-group-sm input[type=text],
+.comment-form .form-group-sm input[type=email],
+.comment-form .form-group-sm input[type=url],
+.comment-form .form-group-sm textarea,
+.form-group-sm .comment-form input[type=text],
+.form-group-sm .comment-form input[type=email],
+.form-group-sm .comment-form input[type=url],
+.form-group-sm .comment-form textarea,
+.form-group-sm .form-control {
+    height: 36px;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+.form-group-sm select.form-control {
+    height: 36px;
+    line-height: 36px
+}
+.comment-form .form-group-sm textarea,
+.form-group-sm .comment-form textarea,
+.form-group-sm select[multiple].form-control,
+.form-group-sm textarea.form-control {
+    height: auto
+}
+.form-group-sm .form-control-static {
+    height: 36px;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    min-height: 36px
+}
+.comment-form .input-group-lg>.input-group-btn>input[type=submit],
+.comment-form .input-group-lg>input[type=text],
+.comment-form .input-group-lg>input[type=email],
+.comment-form .input-group-lg>input[type=url],
+.comment-form .input-group-lg>textarea,
+.input-group-lg>.form-control,
+.input-group-lg>.input-group-addon,
+.input-group-lg>.input-group-btn>.btn,
+.input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+.input-group-lg>.input-group-btn>select.btn,
+.input-group-lg>select.form-control,
+.input-group-lg>select.input-group-addon,
+select.input-lg {
+    height: 46px;
+    line-height: 46px
+}
+.comment-form .input-group-lg>textarea,
+.input-group-lg>.input-group-btn>select[multiple].btn,
+.input-group-lg>.input-group-btn>textarea.btn,
+.input-group-lg>select[multiple].form-control,
+.input-group-lg>select[multiple].input-group-addon,
+.input-group-lg>textarea.form-control,
+.input-group-lg>textarea.input-group-addon,
+select[multiple].input-lg,
+textarea.input-lg {
+    height: auto
+}
+.comment-form .form-group-lg input[type=text],
+.comment-form .form-group-lg input[type=email],
+.comment-form .form-group-lg input[type=url],
+.comment-form .form-group-lg textarea,
+.form-group-lg .comment-form input[type=text],
+.form-group-lg .comment-form input[type=email],
+.form-group-lg .comment-form input[type=url],
+.form-group-lg .comment-form textarea,
+.form-group-lg .form-control {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+.form-group-lg select.form-control {
+    height: 46px;
+    line-height: 46px
+}
+.comment-form .form-group-lg textarea,
+.form-group-lg .comment-form textarea,
+.form-group-lg select[multiple].form-control,
+.form-group-lg textarea.form-control {
+    height: auto
+}
+.form-group-lg .form-control-static {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    min-height: 38px
+}
+.has-feedback {
+    position: relative
+}
+.comment-form .has-feedback input[type=text],
+.comment-form .has-feedback input[type=email],
+.comment-form .has-feedback input[type=url],
+.comment-form .has-feedback textarea,
+.has-feedback .comment-form input[type=text],
+.has-feedback .comment-form input[type=email],
+.has-feedback .comment-form input[type=url],
+.has-feedback .comment-form textarea,
+.has-feedback .form-control {
+    padding-right: 42.5px
+}
+.form-control-feedback {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    display: block;
+    width: 34px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+    pointer-events: none
+}
+.comment-form .input-group-lg>.input-group-btn>input[type=submit]+.form-control-feedback,
+.comment-form .input-group-lg>input[type=text]+.form-control-feedback,
+.comment-form .input-group-lg>input[type=email]+.form-control-feedback,
+.comment-form .input-group-lg>input[type=url]+.form-control-feedback,
+.comment-form .input-group-lg>textarea+.form-control-feedback,
+.input-group-lg>.form-control+.form-control-feedback,
+.input-group-lg>.input-group-addon+.form-control-feedback,
+.input-group-lg>.input-group-btn>.btn+.form-control-feedback,
+.input-lg+.form-control-feedback {
+    width: 46px;
+    height: 46px;
+    line-height: 46px
+}
+.comment-form .input-group-sm>.input-group-btn>input[type=submit]+.form-control-feedback,
+.comment-form .input-group-sm>input[type=text]+.form-control-feedback,
+.comment-form .input-group-sm>input[type=email]+.form-control-feedback,
+.comment-form .input-group-sm>input[type=url]+.form-control-feedback,
+.comment-form .input-group-sm>textarea+.form-control-feedback,
+.input-group-sm>.form-control+.form-control-feedback,
+.input-group-sm>.input-group-addon+.form-control-feedback,
+.input-group-sm>.input-group-btn>.btn+.form-control-feedback,
+.input-sm+.form-control-feedback {
+    width: 36px;
+    height: 36px;
+    line-height: 36px
+}
+.has-success .checkbox,
+.has-success .checkbox-inline,
+.has-success .control-label,
+.has-success .help-block,
+.has-success .radio,
+.has-success .radio-inline,
+.has-success.checkbox label,
+.has-success.checkbox-inline label,
+.has-success.radio label,
+.has-success.radio-inline label {
+    color: #3c763d
+}
+.comment-form .has-success input[type=text],
+.comment-form .has-success input[type=email],
+.comment-form .has-success input[type=url],
+.comment-form .has-success textarea,
+.has-success .comment-form input[type=text],
+.has-success .comment-form input[type=email],
+.has-success .comment-form input[type=url],
+.has-success .comment-form textarea,
+.has-success .form-control {
+    border-color: #3c763d;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+.comment-form .has-success input[type=text]:focus,
+.comment-form .has-success input[type=email]:focus,
+.comment-form .has-success input[type=url]:focus,
+.comment-form .has-success textarea:focus,
+.has-success .comment-form input[type=text]:focus,
+.has-success .comment-form input[type=email]:focus,
+.has-success .comment-form input[type=url]:focus,
+.has-success .comment-form textarea:focus,
+.has-success .form-control:focus {
+    border-color: #2b542c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #67b168
+}
+.has-success .input-group-addon {
+    color: #3c763d;
+    border-color: #3c763d;
+    background-color: #dff0d8
+}
+.has-success .form-control-feedback {
+    color: #3c763d
+}
+.has-warning .checkbox,
+.has-warning .checkbox-inline,
+.has-warning .control-label,
+.has-warning .help-block,
+.has-warning .radio,
+.has-warning .radio-inline,
+.has-warning.checkbox label,
+.has-warning.checkbox-inline label,
+.has-warning.radio label,
+.has-warning.radio-inline label {
+    color: #8a6d3b
+}
+.comment-form .has-warning input[type=text],
+.comment-form .has-warning input[type=email],
+.comment-form .has-warning input[type=url],
+.comment-form .has-warning textarea,
+.has-warning .comment-form input[type=text],
+.has-warning .comment-form input[type=email],
+.has-warning .comment-form input[type=url],
+.has-warning .comment-form textarea,
+.has-warning .form-control {
+    border-color: #8a6d3b;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+.comment-form .has-warning input[type=text]:focus,
+.comment-form .has-warning input[type=email]:focus,
+.comment-form .has-warning input[type=url]:focus,
+.comment-form .has-warning textarea:focus,
+.has-warning .comment-form input[type=text]:focus,
+.has-warning .comment-form input[type=email]:focus,
+.has-warning .comment-form input[type=url]:focus,
+.has-warning .comment-form textarea:focus,
+.has-warning .form-control:focus {
+    border-color: #66512c;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #c0a16b
+}
+.has-warning .input-group-addon {
+    color: #8a6d3b;
+    border-color: #8a6d3b;
+    background-color: #fcf8e3
+}
+.has-warning .form-control-feedback {
+    color: #8a6d3b
+}
+.has-error .checkbox,
+.has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+    color: #a94442
+}
+.comment-form .has-error input[type=text],
+.comment-form .has-error input[type=email],
+.comment-form .has-error input[type=url],
+.comment-form .has-error textarea,
+.has-error .comment-form input[type=text],
+.has-error .comment-form input[type=email],
+.has-error .comment-form input[type=url],
+.has-error .comment-form textarea,
+.has-error .form-control {
+    border-color: #a94442;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075)
+}
+.comment-form .has-error input[type=text]:focus,
+.comment-form .has-error input[type=email]:focus,
+.comment-form .has-error input[type=url]:focus,
+.comment-form .has-error textarea:focus,
+.has-error .comment-form input[type=text]:focus,
+.has-error .comment-form input[type=email]:focus,
+.has-error .comment-form input[type=url]:focus,
+.has-error .comment-form textarea:focus,
+.has-error .form-control:focus {
+    border-color: #843534;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 6px #ce8483
+}
+.has-error .input-group-addon {
+    color: #a94442;
+    border-color: #a94442;
+    background-color: #f2dede
+}
+.has-error .form-control-feedback {
+    color: #a94442
+}
+.has-feedback label~.form-control-feedback {
+    top: 25px
+}
+.has-feedback label.screen-reader-text~.form-control-feedback,
+.has-feedback label.sr-only~.form-control-feedback {
+    top: 0
+}
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #7e7e7e
+}
+@media (min-width: 768px) {
+    .comment-form .form-inline p,
+    .form-inline .comment-form p,
+    .form-inline .form-group {
+        display: inline-block;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+    .comment-form .form-inline input[type=text],
+    .comment-form .form-inline input[type=email],
+    .comment-form .form-inline input[type=url],
+    .comment-form .form-inline textarea,
+    .form-inline .comment-form input[type=text],
+    .form-inline .comment-form input[type=email],
+    .form-inline .comment-form input[type=url],
+    .form-inline .comment-form textarea,
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+    .form-inline .form-control-static {
+        display: inline-block
+    }
+    .form-inline .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+    .comment-form .form-inline .input-group input[type=text],
+    .comment-form .form-inline .input-group input[type=email],
+    .comment-form .form-inline .input-group input[type=url],
+    .comment-form .form-inline .input-group textarea,
+    .form-inline .input-group .comment-form input[type=text],
+    .form-inline .input-group .comment-form input[type=email],
+    .form-inline .input-group .comment-form input[type=url],
+    .form-inline .input-group .comment-form textarea,
+    .form-inline .input-group .form-control,
+    .form-inline .input-group .input-group-addon,
+    .form-inline .input-group .input-group-btn {
+        width: auto
+    }
+    .comment-form .form-inline .input-group>input[type=text],
+    .comment-form .form-inline .input-group>input[type=email],
+    .comment-form .form-inline .input-group>input[type=url],
+    .comment-form .form-inline .input-group>textarea,
+    .form-inline .comment-form .input-group>input[type=text],
+    .form-inline .comment-form .input-group>input[type=email],
+    .form-inline .comment-form .input-group>input[type=url],
+    .form-inline .comment-form .input-group>textarea,
+    .form-inline .input-group>.form-control {
+        width: 100%
+    }
+    .form-inline .control-label {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+    .form-inline .checkbox,
+    .form-inline .radio {
+        display: inline-block;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+    .form-inline .checkbox label,
+    .form-inline .radio label {
+        padding-left: 0
+    }
+    .form-inline .checkbox input[type=checkbox],
+    .form-inline .radio input[type=radio] {
+        position: relative;
+        margin-left: 0
+    }
+    .form-inline .has-feedback .form-control-feedback {
+        top: 0
+    }
+}

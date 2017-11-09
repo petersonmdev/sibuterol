@@ -1,0 +1,374 @@
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc
+}
+.btn-default.active,
+.btn-default.focus,
+.btn-default:active,
+.btn-default:focus,
+.btn-default:hover,
+.open>.btn-default.dropdown-toggle {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad
+}
+.btn-default.active,
+.btn-default:active,
+.open>.btn-default.dropdown-toggle {
+    background-image: none
+}
+.btn-default.disabled,
+.btn-default.disabled.active,
+.btn-default.disabled.focus,
+.btn-default.disabled:active,
+.btn-default.disabled:focus,
+.btn-default.disabled:hover,
+.btn-default[disabled],
+.btn-default[disabled].active,
+.btn-default[disabled].focus,
+.btn-default[disabled]:active,
+.btn-default[disabled]:focus,
+.btn-default[disabled]:hover,
+fieldset[disabled] .btn-default,
+fieldset[disabled] .btn-default.active,
+fieldset[disabled] .btn-default.focus,
+fieldset[disabled] .btn-default:active,
+fieldset[disabled] .btn-default:focus,
+fieldset[disabled] .btn-default:hover {
+    background-color: #fff;
+    border-color: #ccc
+}
+.btn-default .badge {
+    color: #fff;
+    background-color: #333
+}
+.btn-primary,
+.comment-form input[type=submit] {
+    color: #fff;
+    background-color: #0094ca;
+    border-color: #0081b1
+}
+.btn-primary.active,
+.btn-primary.focus,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:hover,
+.comment-form .open>input.dropdown-toggle[type=submit],
+.comment-form input.active[type=submit],
+.comment-form input.focus[type=submit],
+.comment-form input[type=submit]:active,
+.comment-form input[type=submit]:focus,
+.comment-form input[type=submit]:hover,
+.open>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #006f97;
+    border-color: #005473
+}
+.btn-primary.active,
+.btn-primary:active,
+.comment-form .open>input.dropdown-toggle[type=submit],
+.comment-form input.active[type=submit],
+.comment-form input[type=submit]:active,
+.open>.btn-primary.dropdown-toggle {
+    background-image: none
+}
+.btn-primary.disabled,
+.btn-primary.disabled.active,
+.btn-primary.disabled.focus,
+.btn-primary.disabled:active,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled],
+.btn-primary[disabled].active,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:active,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+.comment-form fieldset[disabled] input.active[type=submit],
+.comment-form fieldset[disabled] input.focus[type=submit],
+.comment-form fieldset[disabled] input[type=submit],
+.comment-form fieldset[disabled] input[type=submit]:active,
+.comment-form fieldset[disabled] input[type=submit]:focus,
+.comment-form fieldset[disabled] input[type=submit]:hover,
+.comment-form input.disabled.active[type=submit],
+.comment-form input.disabled.focus[type=submit],
+.comment-form input.disabled[type=submit],
+.comment-form input.disabled[type=submit]:active,
+.comment-form input.disabled[type=submit]:focus,
+.comment-form input.disabled[type=submit]:hover,
+.comment-form input[disabled].active[type=submit],
+.comment-form input[disabled].focus[type=submit],
+.comment-form input[disabled][type=submit],
+.comment-form input[disabled][type=submit]:active,
+.comment-form input[disabled][type=submit]:focus,
+.comment-form input[disabled][type=submit]:hover,
+fieldset[disabled] .btn-primary,
+fieldset[disabled] .btn-primary.active,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:active,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover,
+fieldset[disabled] .comment-form input.active[type=submit],
+fieldset[disabled] .comment-form input.focus[type=submit],
+fieldset[disabled] .comment-form input[type=submit],
+fieldset[disabled] .comment-form input[type=submit]:active,
+fieldset[disabled] .comment-form input[type=submit]:focus,
+fieldset[disabled] .comment-form input[type=submit]:hover {
+    background-color: #0094ca;
+    border-color: #0081b1
+}
+.btn-primary .badge,
+.comment-form input[type=submit] .badge {
+    color: #0094ca;
+    background-color: #fff
+}
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c
+}
+.btn-success.active,
+.btn-success.focus,
+.btn-success:active,
+.btn-success:focus,
+.btn-success:hover,
+.open>.btn-success.dropdown-toggle {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439
+}
+.btn-success.active,
+.btn-success:active,
+.open>.btn-success.dropdown-toggle {
+    background-image: none
+}
+.btn-success.disabled,
+.btn-success.disabled.active,
+.btn-success.disabled.focus,
+.btn-success.disabled:active,
+.btn-success.disabled:focus,
+.btn-success.disabled:hover,
+.btn-success[disabled],
+.btn-success[disabled].active,
+.btn-success[disabled].focus,
+.btn-success[disabled]:active,
+.btn-success[disabled]:focus,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success,
+fieldset[disabled] .btn-success.active,
+fieldset[disabled] .btn-success.focus,
+fieldset[disabled] .btn-success:active,
+fieldset[disabled] .btn-success:focus,
+fieldset[disabled] .btn-success:hover {
+    background-color: #5cb85c;
+    border-color: #4cae4c
+}
+.btn-success .badge {
+    color: #5cb85c;
+    background-color: #fff
+}
+.btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da
+}
+.btn-info.active,
+.btn-info.focus,
+.btn-info:active,
+.btn-info:focus,
+.btn-info:hover,
+.open>.btn-info.dropdown-toggle {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc
+}
+.btn-info.active,
+.btn-info:active,
+.open>.btn-info.dropdown-toggle {
+    background-image: none
+}
+.btn-info.disabled,
+.btn-info.disabled.active,
+.btn-info.disabled.focus,
+.btn-info.disabled:active,
+.btn-info.disabled:focus,
+.btn-info.disabled:hover,
+.btn-info[disabled],
+.btn-info[disabled].active,
+.btn-info[disabled].focus,
+.btn-info[disabled]:active,
+.btn-info[disabled]:focus,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info,
+fieldset[disabled] .btn-info.active,
+fieldset[disabled] .btn-info.focus,
+fieldset[disabled] .btn-info:active,
+fieldset[disabled] .btn-info:focus,
+fieldset[disabled] .btn-info:hover {
+    background-color: #5bc0de;
+    border-color: #46b8da
+}
+.btn-info .badge {
+    color: #5bc0de;
+    background-color: #fff
+}
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236
+}
+.btn-warning.active,
+.btn-warning.focus,
+.btn-warning:active,
+.btn-warning:focus,
+.btn-warning:hover,
+.open>.btn-warning.dropdown-toggle {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512
+}
+.btn-warning.active,
+.btn-warning:active,
+.open>.btn-warning.dropdown-toggle {
+    background-image: none
+}
+.btn-warning.disabled,
+.btn-warning.disabled.active,
+.btn-warning.disabled.focus,
+.btn-warning.disabled:active,
+.btn-warning.disabled:focus,
+.btn-warning.disabled:hover,
+.btn-warning[disabled],
+.btn-warning[disabled].active,
+.btn-warning[disabled].focus,
+.btn-warning[disabled]:active,
+.btn-warning[disabled]:focus,
+.btn-warning[disabled]:hover,
+fieldset[disabled] .btn-warning,
+fieldset[disabled] .btn-warning.active,
+fieldset[disabled] .btn-warning.focus,
+fieldset[disabled] .btn-warning:active,
+fieldset[disabled] .btn-warning:focus,
+fieldset[disabled] .btn-warning:hover {
+    background-color: #f0ad4e;
+    border-color: #eea236
+}
+.btn-warning .badge {
+    color: #f0ad4e;
+    background-color: #fff
+}
+.btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+.btn-danger.active,
+.btn-danger.focus,
+.btn-danger:active,
+.btn-danger:focus,
+.btn-danger:hover,
+.open>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925
+}
+.btn-danger.active,
+.btn-danger:active,
+.open>.btn-danger.dropdown-toggle {
+    background-image: none
+}
+.btn-danger.disabled,
+.btn-danger.disabled.active,
+.btn-danger.disabled.focus,
+.btn-danger.disabled:active,
+.btn-danger.disabled:focus,
+.btn-danger.disabled:hover,
+.btn-danger[disabled],
+.btn-danger[disabled].active,
+.btn-danger[disabled].focus,
+.btn-danger[disabled]:active,
+.btn-danger[disabled]:focus,
+.btn-danger[disabled]:hover,
+fieldset[disabled] .btn-danger,
+fieldset[disabled] .btn-danger.active,
+fieldset[disabled] .btn-danger.focus,
+fieldset[disabled] .btn-danger:active,
+fieldset[disabled] .btn-danger:focus,
+fieldset[disabled] .btn-danger:hover {
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+.btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff
+}
+.btn-link {
+    color: #0094ca;
+    font-weight: 400;
+    border-radius: 0
+}
+.btn-link,
+.btn-link.active,
+.btn-link:active,
+.btn-link[disabled],
+fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.btn-link,
+.btn-link:active,
+.btn-link:focus,
+.btn-link:hover {
+    border-color: transparent
+}
+.btn-link:focus,
+.btn-link:hover {
+    color: #005c7e;
+    text-decoration: underline;
+    background-color: transparent
+}
+.btn-link[disabled]:focus,
+.btn-link[disabled]:hover,
+fieldset[disabled] .btn-link:focus,
+fieldset[disabled] .btn-link:hover {
+    color: #777;
+    text-decoration: none
+}
+.btn-group-lg>.btn,
+.btn-lg,
+.comment-form .btn-group-lg>input[type=submit] {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px
+}
+.btn-group-sm>.btn,
+.btn-sm,
+.comment-form .btn-group-sm>input[type=submit] {
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+.btn-group-xs>.btn,
+.btn-xs,
+.comment-form .btn-group-xs>input[type=submit] {
+    padding: 1px 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+.btn-block {
+    display: block;
+    width: 100%
+}
+.btn-block+.btn-block {
+    margin-top: 5px
+}
+input[type=button].btn-block,
+input[type=reset].btn-block,
+input[type=submit].btn-block {
+    width: 100%
+}
